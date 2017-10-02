@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="2"
+    tools:context="com.ex.phongtoda.viewpager_fragments.TabFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_weight="1">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:src="@drawable/spiderman"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textPersonName"
+    android:paddingTop="10dp"
+    android:text="Spiderman is Hero"
+    android:layout_marginLeft="80dp"
+    android:layout_gravity="center"
+    android:textColor="@color/colorAccent"
+    android:id="@+id/editText" />
+
+</LinearLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:layout_weight="1"
+android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:src="@drawable/spiderman1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:paddingTop="50dp"
+        android:text="SpiderMan season 1"
+        android:ems="10"
+        android:layout_gravity="fill_horizontal" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:src="@drawable/spiderman2"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:paddingTop="50dp"
+        android:text="SpiderMan season 2"
+        android:ems="10"
+        android:textAlignment="center" />
+
+</LinearLayout>
+
+</LinearLayout>
+
+    </LinearLayout>
